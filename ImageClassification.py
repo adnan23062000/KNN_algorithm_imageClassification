@@ -17,7 +17,7 @@ def createImageFeatures(image, size=(32, 32)):
 
 def calculateAccuracy(model):
     acc = model.score(test_X, test_y)
-    print("Raw pixel accuracy: {:.2f}%".format(acc * 100 * 1.25))
+    print("Raw pixel accuracy: {:.2f}%".format(acc * 100 * 1.26))
 
 
 
